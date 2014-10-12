@@ -80,4 +80,5 @@ header p {
 #register form {
   margin: 20px auto;
   width: 440px;
+  max-width: 100%;
 }

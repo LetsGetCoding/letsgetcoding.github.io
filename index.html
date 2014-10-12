@@ -1,1 +1,143 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="We teach Australian primary school students in Years 3 to 6 how to code, laying the foundations for them to build their own websites and mobile apps.">
+<link rel="icon" href="favicon.ico">
+<title>Let's Get Coding</title>
+<!-- Bootstrap minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<!-- Let's Get Coding CSS -->
+<link rel="stylesheet" href="css/letsgetcoding.css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1><a href="/"><img alt="Let's Get Coding" src="img/logo.png" width="165" height="80"></a></h1>
+    <h2>Before school coding courses for primary school kids.</h2>
+    <p>We teach Australian primary school students in Years 3 to 6 how to code, laying the foundations for them to build their own websites and mobile apps.</p>
+    <img class="img-responsive" alt="Australian primary school kids" src="img/kids.jpg" width="600" height="350"> </div>
+</header>
+<section id="quotes">
+  <div class="container">
+    <div id="carousel-quotes" class="carousel slide" data-ride="carousel" data-interval="7000"> 
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-quotes" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-quotes" data-slide-to="1"></li>
+        <li data-target="#carousel-quotes" data-slide-to="2"></li>
+        <li data-target="#carousel-quotes" data-slide-to="3"></li>
+        <li data-target="#carousel-quotes" data-slide-to="4"></li>
+        <li data-target="#carousel-quotes" data-slide-to="5"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="headshot"><img alt="Steve Jobs" src="img/steve-jobs.jpg" width="150" height="150"></div>
+          <blockquote>
+            <p class="lead">Everybody should learn how to program a computer because it teaches you how to think.</p>
+            <p><small>Steve Jobs - Co-founder of Apple</small></p>
+          </blockquote>
+        </div>
+        <div class="item">
+          <div class="headshot"><img alt="Mark Zuckerberg" src="img/mark-zuckerberg.jpg" width="150" height="150"></div>
+          <blockquote>
+            <p class="lead">I literally coded Facebook in my dorm room and launched it from my dorm room.</p>
+            <p><small>Mark Zuckerberg - Co-founder of Facebook</small></p>
+          </blockquote>
+        </div>
+        <div class="item">
+          <div class="headshot"><img alt="Jack Dorsey" src="img/jack-dorsey.jpg" width="150" height="150"></div>
+          <blockquote>
+            <p class="lead">A lot of people think about programming as this really mechanical thing. But it’s an art form as well. It’s another language.</p>
+            <p><small>Jack Dorsey - Co-founder of Twitter</small></p>
+          </blockquote>
+        </div>
+        <div class="item">
+          <div class="headshot"><img alt="will.i.am" src="img/william.jpg" width="150" height="150"></div>
+          <blockquote>
+            <p class="lead">Here we are, 2013, we all depend on technology to communicate, to bank, and none of us know how to read and write code. It’s important for these kids, right now, starting at 8 years old, to read and write code.</p>
+            <p><small>will.i.am - Black Eyed Peas</small></p>
+          </blockquote>
+        </div>
+        <div class="item">
+          <div class="headshot"><img alt="Professor Ian Chubb AC" src="img/ian-chubb.jpg" width="150" height="150"></div>
+          <blockquote>
+            <p class="lead">Employers from across the economy believe STEM skill shortages are limiting their business and ability to innovate. This must change.</p>
+            <p><small>Professor Ian Chubb AC - Chief Scientist of Australia</small></p>
+          </blockquote>
+        </div>
+        <div class="item">
+          <div class="headshot"><img alt="Gabe Newell" src="img/gabe-newell.jpg" width="150" height="150"></div>
+          <blockquote>
+            <p class="lead">The programmers of tomorrow are the wizards of the future. They are going to look like they have magic powers compared to everybody else.</p>
+            <p><small>Gabe Newell - Co-founder of Valve</small></p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="video">
+  <div class="container">
+    <h3>What most schools don't teach</h3>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="853" height="480" src="http://www.youtube.com/embed/nKIu9yen5nc?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+<section id="register">
+  <div class="container">
+    <h3>Register your interest</h3>
+    <p class="lead">Are you a parent, principal, teacher or support staff and you'd like Let's Get Coding to run coding courses at your school?</p>
+    <hr>
+    <form role="form">
+      <div class="form-group">
+        <label for="source" class="sr-only">School name</label>
+        <select class="form-control" id="source">
+          <option>Parent</option>
+          <option>Principal</option>
+          <option>Teacher</option>
+          <option>School support staff</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="school" class="sr-only">School name</label>
+        <input type="text" class="form-control" id="school" placeholder="School name">
+      </div>
+      <div class="form-group">
+        <label for="name" class="sr-only">Your name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your name">
+      </div>
+      <div class="form-group">
+        <label for="child" class="sr-only">Child's name</label>
+        <input type="text" class="form-control" id="child" placeholder="Child's name">
+      </div>
+      <div class="form-group">
+        <label for="email" class="sr-only">Your email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Your email address">
+      </div>
+      <input type="submit" value="Submit" class="btn btn-default">
+    </form>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <p><small>&copy; Copyright 2014 Let's Get Coding. All rights reserved.</small></p>
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<!-- Bootstrap minified JavaScript plugins --> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

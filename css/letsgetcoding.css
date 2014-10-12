@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*
+BOOTSTRAP CUSTOMISATIONS
+https://gist.github.com/anonymous/bc807b05ae385f8e9743
+http://getbootstrap.com/customize/?id=bc807b05ae385f8e9743
+*/
+
+body {
+  background-color: #f5f5f5;
+}
+
+h2, h3 {
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 60px;
+  margin: 0 0 20px 0;
+}
+
+header, section, footer {
+  padding: 40px 0;
+}
+
+header, footer, #video, #register, h3 {
+  text-align: center;
+}
+
+header .container, #quotes .container {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+footer, #video {
+  background-color: #fff;
+}
+
+header {
+  padding-bottom: 0;
+  background-color: #222;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0 auto 40px auto;
+}
+
+header h2 {
+  margin: 0 auto 10px auto;
+}
+
+header p {
+  color: #a7a7a7;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 10px auto 40px auto;
+}
+
+#quotes .headshot {
+  height: 150px;
+  margin: 0 auto 20px auto;
+  width: 150px;
+}
+
+#quotes .carousel-indicators li {
+  border: 1px solid #333;
+}
+
+#quotes .carousel-indicators .active {
+  background-color: #333;
+}
+
+#quotes .item {
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+#video .container {
+  max-width: 853px;
+}
+
+#register form {
+  margin: 20px auto;
+  width: 440px;
+}

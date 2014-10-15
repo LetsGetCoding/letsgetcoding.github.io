@@ -10,10 +10,6 @@ body {
   line-height: 1.8;
 }
 
-#quotes, #video, footer {
-  background-color: #fff;
-}
-
 h2, h3 {
   font-size: 48px;
   font-weight: 200;
@@ -30,8 +26,12 @@ header, section, footer {
   padding: 40px 0;
 }
 
-header, footer, #about, #video, #register, h3 {
+h3, header, #about, #video, #register, footer {
   text-align: center;
+}
+
+#quotes, #video, footer {
+  background-color: #fff;
 }
 
 header .container, #quotes .container {
@@ -55,7 +55,6 @@ header h2 {
 
 header p {
   color: #a7a7a7;
-  font-size: 18px;
   margin-bottom: 40px;
 }
 

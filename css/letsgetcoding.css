@@ -7,57 +7,56 @@ http://getbootstrap.com/customize/?id=bc807b05ae385f8e9743
 
 body {
   background-color: #f5f5f5;
+  line-height: 1.8;
+}
+
+#quotes, #video, footer {
+  background-color: #fff;
 }
 
 h2, h3 {
   font-size: 48px;
   font-weight: 200;
-  line-height: 60px;
-  margin: 0 0 20px 0;
+  margin-bottom: 60px;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 header, section, footer {
   padding: 40px 0;
 }
 
-header, footer, #video, #register, h3 {
+header, footer, #about, #video, #register, h3 {
   text-align: center;
 }
 
 header .container, #quotes .container {
-  margin: 0 auto;
   max-width: 650px;
 }
 
-footer, #video {
-  background-color: #fff;
-}
-
 header {
-  padding-bottom: 0;
   background-color: #222;
   color: #fff;
+  padding-bottom: 0;
 }
 
 header h1 {
-  margin: 0 auto 40px auto;
+  margin-bottom: 40px;
+  margin-top: 0;
 }
 
 header h2 {
-  margin: 0 auto 10px auto;
+  margin-bottom: 10px;
 }
 
 header p {
   color: #a7a7a7;
   font-size: 18px;
-  line-height: 1.5em;
-  margin: 10px auto 40px auto;
-}
-
-#quotes .headshot {
-  height: 150px;
-  margin: 0 auto 20px auto;
-  width: 150px;
+  margin-bottom: 40px;
 }
 
 #quotes .carousel-indicators li {
@@ -69,8 +68,11 @@ header p {
 }
 
 #quotes .item {
-  min-height: 400px;
-  margin: 0 auto;
+  min-height: 380px;
+}
+
+#about p {
+  margin: 20px 0;
 }
 
 #video .container {
@@ -78,7 +80,6 @@ header p {
 }
 
 #register form {
-  margin: 20px auto;
   width: 440px;
   max-width: 100%;
 }

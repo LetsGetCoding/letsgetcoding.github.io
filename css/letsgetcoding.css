@@ -26,7 +26,7 @@ header, section, footer {
   padding: 40px 0;
 }
 
-h3, header, #about, #video, #register, footer {
+h3, header, #about, #video, #register, #form, #thanks, footer {
   text-align: center;
 }
 
@@ -78,7 +78,6 @@ header p {
   max-width: 853px;
 }
 
-#register form {
-  width: 440px;
+#register iframe {
   max-width: 100%;
 }

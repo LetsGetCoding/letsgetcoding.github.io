@@ -79,5 +79,7 @@ header p {
 }
 
 #register iframe {
+  border: none;
   max-width: 100%;
+  overflow: hidden;
 }

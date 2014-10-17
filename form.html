@@ -39,18 +39,18 @@
         <div class="row">
           <div class="col-xs-6">
             <label for="FirstName" class="sr-only">Your first name</label>
-            <input type="text" name="FirstName" class="form-control" id="FirstName" placeholder="Your first name">
+            <input type="text" name="FirstName" class="form-control" id="FirstName" placeholder="Your first name" required>
           </div>
           <div class="col-xs-6">
             <label for="LastName" class="sr-only">Your last name</label>
-            <input type="text" name="LastName" class="form-control" id="LastName" placeholder="Your last name">
+            <input type="text" name="LastName" class="form-control" id="LastName" placeholder="Your last name" required>
           </div>
         </div>
       </div>
       <div class="form-group">
         <input type="hidden" name="emails[0].Label" value="Other">
         <label for="Email" class="sr-only">Your email address</label>
-        <input type="text" name="emails[0].Value" class="form-control" id="Email" placeholder="Your email address">
+        <input type="email" name="emails[0].Value" class="form-control" id="Email" placeholder="Your email address" required>
       </div>
       <div class="form-group">
         <label for="Children" class="sr-only">Your child's name</label>
@@ -58,11 +58,11 @@
       </div>
       <div class="form-group">
         <label for="Organization" class="sr-only">School name</label>
-        <input type="text" name="Organization" class="form-control" id="Organization" placeholder="School name">
+        <input type="text" name="Organization" class="form-control" id="Organization" placeholder="School name" required>
       </div>
       <div class="form-group">
         <label for="Suburb" class="sr-only">School suburb</label>
-        <input type="text" name="addresses[0].City" class="form-control" id="Suburb" placeholder="School suburb">
+        <input type="text" name="addresses[0].City" class="form-control" id="Suburb" placeholder="School suburb" required>
       </div>
       <div class="form-group">
         <label for="State" class="sr-only">School state</label>
